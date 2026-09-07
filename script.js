@@ -183,7 +183,475 @@
 
         // Enhanced Data with Online Status Control
         const gamesData = {
-        bigwalk: {
+        bombanana: {
+                title: "BOMBANANA!",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1788351950.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "492MB",
+                developer: "BOMBANANA!",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.0.0",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/ZUVslIiadE", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/VQALGZvy", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/ZUVslIiadE", icon: "fas fa-download" }
+                ]
+            },
+            machineparty: {
+                title: "Machine Party",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "492MB",
+                developer: "Machine Party",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.0.6",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/Hu6VxAYW3", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/oVeeW8", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/fmX126v54hJ", icon: "fas fa-download" }
+                ]
+            },
+            cheaterstable: {
+                title: "Cheaters Table",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3951810/fe83c1eb32db8c7148a4727e5d7f9f295f0445c7/header.jpg?t=1784848168.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "1.69G",
+                developer: "Cheaters Table",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v0.8.3.6",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/Syqbjy5Yz", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/TTfNUBMd", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/Syqbjy5Yz", icon: "fas fa-download" }
+                ]
+            },
+            mimicparty: {
+                title: "Mimic Party",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5053820/b4377159ba73da6ed927c8b5503bec61ff5ab3ac/capsule_616x353.jpg?t=1787839317.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "168MB",
+                developer: "Mimic Party",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v0.1.47",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/37cdHQg8EpurB", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/14qO8m04", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/37cdHQg8EpurB", icon: "fas fa-download" }
+                ]
+            },
+            twistedparty: {
+                title: "Twisted Party",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4332910/a791e86bbe177bdc0b16698f964229ad263373cc/capsule_616x353.jpg?t=1787670033.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "282MB",
+                developer: "Twisted Party",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.0.7",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/SdtPvYe2aZvqvz", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/hmzQSp3R", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/SdtPvYe2aZvqvz", icon: "fas fa-download" }
+                ]
+            },
+            pizzahousesimulator: {
+                title: "Pizza House Simulator",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4132330/f7e10419b196f7a814eb941ee88f8a648ae7d459/header.jpg?t=1787256029.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "408MB",
+                developer: "Pizza House Simulator",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.007",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/l41q9TD", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/TBiubNZr", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/l41q9TD", icon: "fas fa-download" }
+                ]
+            },
+            howtofish: {
+                title: "How to Fish",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1788160834.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "408MB",
+                developer: "How to Fish",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.0.10",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/Irh2xH", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/rE5ZOdcx", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/Irh2xH", icon: "fas fa-download" }
+                ]
+            },
+            unicycletogether: {
+                title: "Unicycle Together",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4286040/7ba93ad19f40a39830d696385ce3f21a44d87e3a/header.jpg?t=1788098907.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "2.12G",
+                developer: "Unicycle Together",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.2.1.0",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/RV62fa3IT", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/NXEayLzt", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/RV62fa3IT", icon: "fas fa-download" }
+                ]
+            },
+            lastpiratesdie: {
+                title: "Last Pirates Die Together",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4317790/1d46cbde0bf2ac91b6d11d4b53768b45e1b42f55/header.jpg?t=1788535922.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "4.06G",
+                developer: "Last Pirates Die Together",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v0.4.3.e850397f",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/34EV3H", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/m1aM8vTK", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/34EV3H", icon: "fas fa-download" }
+                ]
+            },
+            heaveho: {
+                title: "Heave Ho 2",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch2/70010000113971/0af33b33dc76d4ca21beec4a06dbf76a3e6337849d506457809a02eb39659374.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "2.71G",
+                developer: "Heave Ho 2",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.261",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/GonFTco", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/czhQsLLd", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/GonFTco", icon: "fas fa-download" }
+                ]
+            },
+            bookshopsimulator: {
+                title: "Bookshop Simulator",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3467040/1a434c2722c6b2c7074206a249a2a7e666d01669/capsule_616x353_alt_assets_1.jpg?t=1784578538.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "2.71G",
+                developer: "Bookshop Simulator",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.0.1224",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/mlI5u24", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/PnV4t1", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/mlI5u24", icon: "fas fa-download" }
+                ]
+            },
+            digdigdie: {
+                title: "Dig, Dig, Die",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4074010/a24d06c1e66946b36726443ab799b5a2abadbb56/capsule_616x353.jpg?t=1786016977.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "1.16G",
+                developer: "Dig, Dig, Die",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.0.61.6",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/oxSAqBFMld", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/wfdro8", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/oxSAqBFMld", icon: "fas fa-download" }
+                ]
+            },
+            grainrot: {
+                title: "Grain Rot",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4450620/3a99bd17a046d68a63f9d0f8d1059cc85f54b182/capsule_616x353.jpg?t=1786114521.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "4.26G",
+                developer: "Grain Rot",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v09082026",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/P2Yu1hf", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/IO3KgI", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/P2Yu1hf", icon: "fas fa-download" }
+                ]
+            },
+            bigwalk: {
                 title: "Big Walk",
                 description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
                 image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674.png",
@@ -253,42 +721,6 @@
                     { name: "تحميل اللعبة", url: "https://linkjust.com/DkeDCphBB1k", icon: "fas fa-download" },
                     { name: "ملف الاونلاين", url: "https://gofile.io/d/7zIgbu", icon: "fas fa-download" },
                     { name: "تحميل اخر للعبة", url: "https://linkjust.com/3VuaM", icon: "fas fa-download" }
-                ]
-            },
-            machineparty: {
-                title: "Machine Party",
-                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
-                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320.png",
-                platform: "PC",
-                rating: 4.9,
-                category: "games",
-                size: "492MB",
-                developer: "Machine Party",
-                releaseYear: "2026",
-                language: "العربية + متعدد اللغات",
-                videoId: "#",
-                version: "v1.0.6",
-                onlineStatus: true, // متاح اونلاين
-                systemRequirements: {
-                    minimum: {
-                        os: "Windows 8/10/11 (64-Bit)",
-                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
-                        memory: "8 GB RAM",
-                        graphics: "NVidia 650TI OR AMD R5 240",
-                        storage: "5 GB متاح"
-                    },
-                    recommended: {
-                        os: "Windows 8/10/11 (64-Bit)",
-                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
-                        memory: "8 GB RAM",
-                        graphics: "NVidia 650TI OR AMD R7 250x",
-                        storage: "5 GB متاح"
-                    }
-                },
-                downloadLinks: [
-                    { name: "تحميل اللعبة", url: "https://linkjust.com/Hu6VxAYW3", icon: "fas fa-download" },
-                    { name: "ملف الاونلاين", url: "https://gofile.io/d/oVeeW8", icon: "fas fa-download" },
-                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/fmX126v54hJ", icon: "fas fa-download" }
                 ]
             },
             dirtybusiness: {
@@ -375,7 +807,7 @@
                 releaseYear: "2026",
                 language: "العربية + متعدد اللغات",
                 videoId: "WCUhRdcLcRY",
-                version: "v3.5.2",
+                version: "v4.1.0",
                 onlineStatus: true, // متاح اونلاين
                 systemRequirements: {
                     minimum: {
@@ -394,9 +826,9 @@
                     }
                 },
                 downloadLinks: [
-                    { name: "تحميل اللعبة", url: "https://linkjust.com/fPDKzn", icon: "fas fa-download" },
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/O3yDf6eey0e", icon: "fas fa-download" },
                     { name: "ملف الاونلاين", url: "https://gofile.io/d/PS0BYh", icon: "fas fa-download" },
-                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/fPDKzn", icon: "fas fa-download" }
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/O3yDf6eey0e", icon: "fas fa-download" }
                 ]
             },
             forestescapelast: {
